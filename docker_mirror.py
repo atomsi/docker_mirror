@@ -29,6 +29,10 @@ docker_config_map = {
         "config": "/etc/sysconfig/docker",
         "prefix": "OPTIONS="
     },
+    "Fedora": {
+        "config": "/etc/sysconfig/docker",
+        "prefix": "OPTIONS="
+    }
     "Deepin": {
         "config": "/etc/default/docker",
         "prefix": "DOCKER_OPTS="
